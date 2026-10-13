@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="link_do_twojego_baneru.png" alt="Logo Projektu" width="800">
+  <img src="kotek.jpg" alt="Logo Projektu" width="800">
 
   ### 🚀 Krótki, chwytliwy opis Twojego niesamowitego projektu
 
