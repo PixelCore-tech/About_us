@@ -18,7 +18,7 @@
 ---
 
 ### 💻 O projekcie
-Tutaj wpisz dłuższy opis projektu. Wyjaśnij, dlaczego powstał i dla kogo jest przeznaczony. 
+Tutaj wpisz dłuższy opis projektu. Wyjaśnij, dlaczego powstał i dla kogo jest przeznaczony. ...
 [ZOBACZ DEMO LIVE](https://twoj-link-do-demo.com)
 
 <div align="center">
