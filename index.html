@@ -117,7 +117,33 @@
             font-size: 0.9rem; font-weight: bold;
             border: 1px solid rgba(0, 255, 204, 0.2);
         }
-
+        /* SEKCJA WSTĘPNA (ABOUT) */
+        .about-section {
+            background-color: var(--card-bg);
+            padding: 25px 30px;
+            border-radius: var(--border-radius);
+            margin-bottom: 40px;
+            border-left: 4px solid var(--accent-color);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .about-section h2 {
+            font-size: 1.4rem;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+        
+        .about-section p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        
+        .about-section p:last-child {
+            margin-bottom: 0;
+        }
+        
         /* ZESPÓŁ (Twój poprzedni styl) */
         .team-grid {
             display: grid; grid-template-columns: 1fr; gap: 20px; margin-bottom: 40px;
@@ -154,7 +180,13 @@
     <!-- SEKCJA 1: GRY I PROTOTYPY -->
     <h2 class="section-title">🎮 Gry i Prototypy</h2>
     <div class="gallery-grid">
-        
+        <!-- WSTĘP / OPIS ZESPOŁU -->
+    <div class="about-section">
+        <h2>Kim jesteśmy?</h2>
+        <p>Jesteśmy 3-osobowym zespołem z Trójmiasta, tworzącym gry i assety w ramach rocznego projektu wdrożeniowego. Naszą pasją jest łączenie technicznego kodu z nieszablonowym kierunkiem artystycznym.</p>
+        <p>Specjalizujemy się w tworzeniu prototypów w <strong>Unity (C#)</strong> – od proceduralnego generowania poziomów i autorskich systemów AI Director, po kompleksowe mechaniki rozgrywki. Po stronie wizualnej zajmujemy się modelowaniem 3D (Blender), tworzeniem klimatycznego Pixel Artu (Aseprite) oraz zaawansowanym drukiem 3D</p>
+        <p>Poniżej znajdziesz przekrój naszych umiejętności – od mechanik w grach 2.5D, przez szczegółowe sprite'y, aż po fizyczne wydruki modeli.</p>
+    </div>
         <!-- DUŻY GIF (Dzięki klasie 'featured' zajmie podwójne miejsce!) -->
         <div class="gallery-item featured">
             <img src="grafiki/UrywkiZGier/Gra.png" alt="Main gameplay GIF">
